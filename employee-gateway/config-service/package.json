@@ -1,0 +1,20 @@
+{
+  "name": "config-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node main.js",
+    "dev": "tsc && nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "@types/morgan": "^1.9.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
